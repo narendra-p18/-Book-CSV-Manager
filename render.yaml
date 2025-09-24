@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: book-csv-manager
+    env: static
+    buildCommand: npm run render-build
+    startCommand: npm run render-start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 4000
+    staticPublishPath: ./dist
