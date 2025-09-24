@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/types.ts","./src/components/controls.tsx","./src/components/datatable.tsx","./src/components/searchbar.tsx","./src/components/uploadcsv.tsx","./src/utils/csv.ts","./src/utils/fake.ts"],"version":"5.8.3"}
