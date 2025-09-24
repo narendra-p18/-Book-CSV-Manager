@@ -4,12 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host 0.0.0.0",
     "build": "tsc -b && vite build",
-    "preview": "vite preview",
-    "start": "vite preview --host 0.0.0.0 --port $PORT",
-    "render-build": "npm run build",
-    "render-start": "npm run start"
+    "preview": "vite preview --host 0.0.0.0",
+    "start": "vite preview --host 0.0.0.0 --port $PORT"
   },
   "dependencies": {
     "@faker-js/faker": "^9.0.0",
